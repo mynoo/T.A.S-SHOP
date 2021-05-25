@@ -1,0 +1,51 @@
+# Main Section
+main=shopping.common.controller.MainController
+contact=shopping.common.controller.ContactController
+### Member Section ######################################################
+meLogin=shopping.member.controller.MemberLoginController
+meList=shopping.member.controller.MemberListController
+meInsert=shopping.member.controller.MemberInsertController
+meLogout=shopping.member.controller.MemberLogoutController
+meIdcheck=shopping.member.controller.MemberIdcheckController
+meDetailView=shopping.member.controller.MemberDetailViewController
+meUpdate=shopping.member.controller.MemberUpdateController
+meDelete=shopping.member.controller.MemberDeleteController
+meLogincheck=shopping.member.controller.MemberLogincheckController
+regForm=shopping.member.controller.MemberRegFormController
+### Board Section ######################################################
+boList=shopping.board.controller.BoardListController
+boInsert=shopping.board.controller.BoardInsertController
+boDetailView=shopping.board.controller.BoardDetailViewController
+boDelete=shopping.board.controller.BoardDeleteController
+boUpdate=shopping.board.controller.BoardUpdateController
+boReply=shopping.board.controller.BoardReplyController
+boreDelete=shopping.board.controller.BoardReplyDeleteController
+### Product Section ######################################################
+prList=shopping.product.controller.ProductListController
+prprList=shopping.product.controller.ProductPrListController
+prDetailView=shopping.product.controller.ProductDetailViewController
+prInsert=shopping.product.controller.ProductInsertController
+prDelete=shopping.product.controller.ProductDeleteController
+prUpdate=shopping.product.controller.ProductUpdateController
+### Mall Section ######################################################
+mallInsert=shopping.mall.controller.MallInsertController
+mallList=shopping.mall.controller.MallListController
+mallCalculate=shopping.mall.controller.MallCalculateController
+mallDelete=shopping.mall.controller.MallDeleteController
+mallOrder=shopping.mall.controller.MallOrderController
+mallDetail=shopping.mall.controller.MallDetailController
+mallAddr=shopping.mall.controller.MallInsertAddrContorller
+### OtherAddress Section #################################################
+otheraddrList=shopping.otheraddress.controller.OtheraddressListController
+otheraddrInsert=shopping.otheraddress.controller.OtheraddressInsertController
+other=shopping.otheraddress.controller.OtherOrderController
+### Comment Section ######################################################
+#list.com=shopping.comment.controller.CommentListController
+#insert.com=shopping.comment.controller.CommentInsertController
+#delete.com=shopping.comment.controller.CommentDeleteController
+### Review Section ######################################################
+reviewInsert=shopping.review.controller.ReviewInsertController
+reviewMain=shopping.review.controller.ReviewMainController
+reviewList=shopping.review.controller.ReviewListController
+reviewDelete=shopping.review.controller.ReviewDeleteController
+reviewUpdate=shopping.review.controller.ReviewUpdateController

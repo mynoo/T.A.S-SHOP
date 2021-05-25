@@ -1,0 +1,10 @@
+-- 사용자 삭제
+-- drop user tasshop cascade ;
+
+-- 사용자 생성
+create user tasshop identified by oracle account unlock ;
+
+alter user tasshop default tablespace users ;
+
+-- 권한 부여하기
+grant connect, resource to tasshop ;
