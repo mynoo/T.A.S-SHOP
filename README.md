@@ -1,4 +1,4 @@
-# T.A.S-SHOP-
+# T.A.S-SHOP
 BitCamp JAVA 200기 쇼핑몰 프로젝트
 
 팀명 : 비트팡
